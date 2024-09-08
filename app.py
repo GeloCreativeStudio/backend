@@ -15,23 +15,23 @@ db.init_app(app)
 def create_sample_books():
     sample_books = [
         {
-            "title": "To Kill a Mockingbirdss",
-            "author": "Harper Lee",
+            "title": "Pukirat",
+            "author": "Jesus Mocho",
             "genre": "Fiction",
             "publication_date": datetime(1960, 7, 11),
             "available": True
         },
         {
-            "title": "1984s",
-            "author": "George Orwell",
-            "genre": "Science Fiction",
+            "title": "Python Programming",
+            "author": "Papa John",
+            "genre": "Computer Science",
             "publication_date": datetime(1949, 6, 8),
             "available": False
         },
         {
-            "title": "Pride and Prejudice",
-            "author": "Jane Austen",
-            "genre": "Romance",
+            "title": "Data Science for Dummy",
+            "author": "Satan",
+            "genre": "Computer Science",
             "publication_date": datetime(1813, 1, 28),
             "available": True
         }
